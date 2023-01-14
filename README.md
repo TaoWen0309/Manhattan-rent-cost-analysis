@@ -1,5 +1,5 @@
 # DSGA-1001-project
-The code and data for DSGA-1001 team project on Manhattan house rent analysis.
+The code and [data](https://www.kaggle.com/datasets/rebeccapringle/rent-costs-manhatten) for DSGA-1001 team project on Manhattan house rent analysis.
 
 We use the dataset from Street Easy, which is a searchable online database of residential property listings. The dataset primarily focuses on data for rented flats in Manhattan. The dataset includes 19 columns of features about the flats and over 3,000 individual data points, and we perform hypothesis tests, regression predictions, supervised and unsupervised classifications on it. 
 
