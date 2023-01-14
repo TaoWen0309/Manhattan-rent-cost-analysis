@@ -1,2 +1,8 @@
 # DSGA-1001-project
-The code and data for DSGA-1001 project on Manhattan house rent analysis.
+The code and data for DSGA-1001 team project on Manhattan house rent analysis.
+
+We use the dataset from Street Easy, which is a searchable online database of residential property listings. The dataset primarily focuses on data for rented flats in Manhattan. The dataset includes 19 columns of features about the flats and over 3,000 individual data points, and we perform hypothesis tests, regression predictions, supervised and unsupervised classifications on it. 
+
+The dataset includes columns with features such as rental price, layout information (such as the number of bedrooms and bathrooms), location information (such as the distance to the nearest subway), floor number, neighborhood, and amenity information (such as whether the apartment has a doorman, elevator, or gym). Each row of the dataset represents an apartment being rented.
+
+According to the results of the hypothesis test, rental prices for one-bedroom apartments tend to be higher on floors above the 8th floor than those on floors below. Lasso regression indicates that the age of the building has a negative effect on its rental price when controlling for other variables, specifically resulting in a monthly rental price decrease of 7.4 dollars per month. Both the K-means and DBSCAN clustering algorithms effectively separated the rental data into smaller groups of 12 and 48 respectively. We use logistic regression with different penalty terms, decision trees, and random forest algorithms to classify high and low rental prices (labeled by median-split) and find that random forest has the best performance.
